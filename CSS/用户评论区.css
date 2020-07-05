@@ -1,0 +1,46 @@
+@charset "utf-8";
+/* CSS Document */
+body{width: 1200px;margin: 0 auto;}/*网页居中*/
+
+*{list-style: none;margin:0;padding:0;}
+
+a:link {color:#FFFFFF;text-decoration: none;}/*点击前的状态*/
+
+a:hover{color:lightslategray;}/*鼠标移动端链接时候的状态*/
+
+a:visited{color: aliceblue;}/*鼠标点击后的状态*/
+
+a:active{color:lavender;}
+
+.top{position: absolute;position: fixed;z-index: 10;color:darkgrey;width:1200px;
+	height: 40px;background-color:cornflowerblue;border-radius: 15px;outline: none;}/*导航栏属性*/
+
+.top li{line-height: 40px;width: 188px;float:left;}/*导航栏属性*/
+
+.top ul li ul li{background-color:cornflowerblue;border-radius: 15px;outline: none;border-top: 1px solid 
+	#FFFFFF;text-align: center;}
+
+.top ul li{position: relative;}
+
+.TitleLink{ font-family: "微软雅黑";}/*导航栏字体*/
+
+.top form{line-height: 40px;}
+
+.top ul li ul{position: absolute;left:-60px;}/*二级菜单设置样式结束*/
+		
+.top ul li ul{display: none;}/*二级菜单的显示和隐藏开始*/
+		
+.top ul li:hover ul{display: block;}/*二级菜单的显示和隐藏结束*/
+
+.footertext{font-family:"楷书";text-align: center;font-size: 15px;margin-top: 1200px;}/*页脚属性*/
+        
+.title{text-align: center;font-size: 25px;color: cadetblue;font-family: fantasy;padding-top: 40px;}
+		
+.Allcontent{width: auto;margin-left: 0%;margin-right: 0%;}/*全局属性*/
+		
+.parent {width: 80%;margin: auto;padding-top: 50px;}
+
+.text{position: relative;}
+
+.search{width: 170px;height: 30px;border-radius: 15px;outline: none;border: 1px solid #ccc;
+			padding-left: 20px;position: absolute;top: 4px;}/*搜索框属性*/

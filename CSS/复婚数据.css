@@ -1,0 +1,26 @@
+@charset "utf-8";
+/* CSS Document */
+.body{width: 1200px;margin: 0 auto;}
+		
+*{list-style: none;margin:0;padding:0;}
+		
+.track-list {margin:0 auto;padding-left: 5px;position: relative;width: 80%;text-align: center;}/*时间线属性*/
+		
+.track-list li {padding: 9px 0 0 25px;line-height: 18px;border-left: 3px solid #695C75;
+			color:black;font-family: "楷体";}/*时间线属性*/
+		
+.track-list li 
+		
+.time {margin-right: 20px;position: relative;top: 4px;display: inline-block;
+			vertical-align: middle;color: red;font-family: "楷体";font-size:20px;}/*时间线中时间属性*/
+		
+.track-list li 
+		
+.txt {font-family: "中易宋体"; position: relative;text-indent: 2em;top: 4px;font-size: 15px; display: inline-block;vertical-align: middle;}/*时间线中内容属性*/
+		
+.Allcontent{background-color: hsla(0,4%,95%,0.76);width: auto;margin-left: 0%;margin-right: 0%}/*全局属性*/
+		
+.title{text-align: center;font-size: 28px;}
+		
+.remark{padding-left: 5px;font-size: 15px;text-indent: 2em;border-left: 3px}/*文本属性*/
+

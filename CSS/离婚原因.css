@@ -1,0 +1,66 @@
+@charset "utf-8";
+/* CSS Document */
+
+.body{width: 1200px;margin: 0 auto;}
+
+*{list-style: none;margin:0;padding:0;}
+
+a:link {color:#FFFFFF;text-decoration: none;}/*点击前的状态*/
+
+a:hover{color:lightslategray;}/*鼠标移动端链接时候的状态*/
+
+a:visited{color: aliceblue;}/*鼠标点击后的状态*/
+
+a:active{color:lavender;}
+
+.top{position: fixed;color:darkgrey;width:1170px;
+	height: 40px;background-color:cornflowerblue;border-radius: 15px;outline: none;}/*导航栏属性*/
+
+.top li{line-height: 40px;width: 188px;float:left;}/*导航栏属性*/
+
+.top ul li ul li{background-color:cornflowerblue;border-radius: 15px;outline: none;border-top: 1px solid 
+	#FFFFFF;text-align: center;}
+
+.top ul li{position: relative;}
+
+.TitleLink{ font-family: "微软雅黑";}/*导航栏字体*/
+
+.top form{line-height: 40px;}
+
+.top ul li ul{position: absolute;left:-60px;}/*二级菜单设置样式结束*/
+		
+.top ul li ul{display: none;}/*二级菜单的显示和隐藏开始*/
+		
+.top ul li:hover ul{display: block;}/*二级菜单的显示和隐藏结束*/
+
+.level{border-top: 5px solid black;width:80%;margin:auto;}/*水平分割线*/
+		
+.footertext{font-family:"楷书";text-align: center;font-size: 15px;margin-top: 2000px;}/*页脚属性*/
+        
+.title{text-align: center;font-size: 30px;color: white;font-family: fantasy;padding-top: 45px;width: 1170px;}
+
+.text{font-family: "楷书";font-size: 15px;letter-spacing: 3px;line-height: 2;text-indent: 2em;text-align: left;
+	padding-left: 25px;padding-right: 25px}/*定义文本字体、样式、两侧边距、行距和缩进*/
+
+		
+.Allcontent{width: auto;margin-left: 0%;margin-right: 0%}/*全局属性*/
+		
+.search{width: 170px;height: 30px;border-radius: 15px;outline: none;border: 1px solid #ccc;
+			padding-left: 20px;position: absolute;top: 4px;}/*搜索框属性*/
+
+.parent {position: relative;}
+
+.first-o{float:left;;border: #B17E7F;margin-top: 10px;border-radius: 15px;outline: none;margin-left: 40px;height: 180px;width: 520px;text-align: center;}/*左边*/
+
+
+.second-o {background:lavender;float:left;margin-top: 10px;border-radius: 15px;outline: none;margin-left: 40px;height: 195px;width: 500px;}/*右边*/
+
+.second-o p{text-indent: 2em;font-family: "楷书";text-align:left} 
+
+.first-t{background:lavender;;float:left;;border: #B17E7F;margin-top: 10px;border-radius: 15px;outline: none;margin-left: 40px;height: 195px;width: 500px;}/*左边*/
+
+.first-t p{text-indent: 2em;font-family: "楷书";text-align:left} 
+
+.second-t {float:left;width:45%;margin-top: 10px;border-radius: 15px;outline: none;margin-left: 40px;height: 180px;text-align: center;}/*右边*/
+
+.title{text-align: center;color: aliceblue;font-family: "楷体", "隶书", "迷你简黑体";background:#A5ABAA;padding-top: 50px;border-radius: 20px;outline: none;}/*标题*/

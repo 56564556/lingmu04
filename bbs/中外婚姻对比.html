@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>中外婚姻对比</title>
+	<link rel="stylesheet" href="../CSS/中外婚姻对比.css">
+	<script src="https://cdn.staticfile.org/echarts/4.3.0/echarts.min.js"></script>
+</head>
+	
+<body>
+	<!--开始-->
+	<div class="Allcontent">
+		<script src="../JS/index.js"></script>
+		<!--此部分为网上利用-->
+		<!--顶部导航栏开始-->
+		<header class="top">
+			<ul>
+				<li><a href="../index.html" class="TitleLink">首页</a></li>
+				<li><a href="#" class="TitleLink">婚姻数据</a>
+					<ul>
+						<li><a href="结婚数据.html" class="TitleLink">结婚</a></li>
+						<li><a href="离婚数据.html" class="TitleLink">离婚</a></li>
+						<li><a href="复婚数据.html" class="TitleLink">复婚</a></li>
+					</ul>
+				</li>
+				<li><a href="离婚原因.html" class="TitleLink">离婚原因</a></li>
+				<li><a href="#" class="TitleLink">中外婚姻对比</a></li>
+				<li><a href="用户评论区.html" class="TitleLink">用户意见看法收集</a></li>
+			</ul>
+			<!--搜索框-->
+			<form class="parent">
+				<input type="text" class="search" placeholder="搜索">
+			</form>
+		</header>
+		<!--顶部导航栏结束-->
+		<p class="title">中外婚姻对比</p>
+			<div class="first">
+				<br>
+				<p class="text">中国婚姻大致情况</p>
+				<p class="text-t">2018年全国离婚率达到了38% 最高的黑龙江省达到了63%</p>
+				<p class="text-t">2016-2017这两年，全国离婚案中，73.4%是老婆要离婚。而且，91%的案件，是一方坚持要离，另一方一脸懵逼。</p>
+				<p class="text-t">2018年，全省所有离婚案件中，排在第一位的离婚原因，不是出轨不是家暴不是穷，而是“生活琐事”！</p>
+				 <!-- 为ECharts准备一个具备大小（宽高）的Dom -->
+    <div id="main" style="width: 600px;height:400px;"></div>
+    <script>
+        // 基于准备好的dom，初始化echarts实例
+        var myChart = echarts.init(document.getElementById('main'));
+ 
+        myChart.setOption({
+            series : [
+                {
+                    name: '访问来源',
+                    type: 'pie',    // 设置图表类型为饼图
+                    radius: '55%',  // 饼图的半径，外半径为可视区尺寸（容器高宽中较小一项）的 55% 长度。
+                    data:[          // 数据数组，name 为数据项名称，value 为数据项值
+							{value:342.1, name:'34.21% 生活琐事'},
+                            {value:301.6, name:'30.16% 分居'},
+                            {value:86.3, name:'8.63% 感情薄弱'},
+                            {value:84.4, name:'8。46% 家庭暴力'},
+                            {value:60.6, name:'6.06% 赌博'},
+							{value:51.7, name:'5.17% 性格差异'},
+							{value:33.3, name:'3.33% 缺乏沟通'},
+							{value:25.1, name:'2.51% 出轨'},
+							{value:14.9, name:'1.49% 家庭经济'},
+                    ]
+                }
+            ]
+        })
+    </script><!--饼状图-->
+				<p style="text-align: center">中国离婚前十城市排名</p>
+				<img src="../img/数据图/中国离婚率前十城市排名.gif" alt="图1" >
+				<p style="text-align: center">婚礼花费</p>
+				<img src="../img/数据图/婚礼花费.gif" alt="图2">
+				<p style="text-align: center">婚礼服务花费</p>
+				<img src="../img/数据图/婚礼服务花费（单位：万）.gif" alt="图3">
+			</div>
+			<div class="second">
+				<br>
+				<p class="text">外国婚姻大致情况</p>
+				<p class="text-t">2015年，美国人结婚的平均花费是3万美元左右，有86%的美国人认为太贵;另外，77%的夫妇认为，为了婚礼背上债务是不可接受的。</p>
+				<p class="text-t">目前美国每年有210万场婚礼，每场婚礼的平均花费为31,213美元，美国的婚礼产业每年能产值高达数十亿美元。其中，美国男性结婚的平均年龄为31岁，女性为29岁；每年的12月份是美国的订婚旺季，举办婚礼的旺季是5-8月，6月为顶峰；35%的新人会选择在夏天举行婚礼。
+				钻戒平均开销为5,978美元，女款婚戒的平均花费为1,417美金； 男款则为558美金，几乎为女款婚戒费用的三分之一。</p>
+				<p style="text-align: center">世界离婚率前10国家</p>
+				<img src="../img/数据图/世界离婚率前10国家排名.gif" alt="图5">
+				<p style="text-align: center">（由于国外数据收集有问题，资料有待补充）</p>
+			</div>
+		<br><br><br><br>
+		<!--页脚开始-->
+		
+		<footer class="footertext">
+			<hr>
+			<p>以上图片文字来源网络，如有侵权，请联系作者删除</p>
+			<p>邮箱地址：<a href="mailto:275798488@qq.com" style="color: black">275798488@qq.com</a></p>
+		</footer>
+		<!--页脚结束-->
+	</div>
+	<!--结束-->
+</body>
+
+</html>

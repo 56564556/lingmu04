@@ -1,0 +1,82 @@
+@charset "utf-8";
+/* CSS Document */
+body{width: 1200px;margin: 0 auto;}/*网页居中*/
+
+*{list-style: none;margin:0;padding:0;}
+
+.contain{background-color: hsla(0,4%,95%,0.76);width: auto;margin-left: 0%;margin-right: 0%}/*定义网页背景*/		
+
+
+a:link {color:#FFFFFF;text-decoration: none;}/*点击前的状态*/
+
+a:hover{color:lightslategray;}/*鼠标移动端链接时候的状态*/
+
+a:visited{color: aliceblue;}/*鼠标点击后的状态*/
+
+a:active{color:lavender;}
+
+.top{position: absolute;position: fixed;z-index: 10;color:darkgrey;width:1200px;
+	height: 40px;background-color:cornflowerblue;border-radius: 15px;outline: none;}/*导航栏属性*/
+
+.top li{line-height: 40px;width: 188px;float:left;}/*导航栏属性*/
+
+.top ul li ul li{background-color:cornflowerblue;border-radius: 15px;outline: none;border-top: 1px solid 
+	#FFFFFF;text-align: center;}
+
+.top ul li{position: relative;}
+
+.TitleLink{ font-family: "微软雅黑";}/*导航栏字体*/
+
+.top form{line-height: 40px;}
+
+.top ul li ul{position: absolute;left:-60px;}/*二级菜单设置样式结束*/
+		
+.top ul li ul{display: none;}/*二级菜单的显示和隐藏开始*/
+		
+.top ul li:hover ul{display: block;}/*二级菜单的显示和隐藏结束*/
+
+.level{border-top: 5px solid black;width:80%;margin:auto;}/*水平分割线*/
+		
+.footertext{font-family:"中易宋体";text-align: center;font-size: 15px;margin-top:auto;}/*页脚属性*/
+        
+.title{text-align: center;font-size: 25px;color: cadetblue;font-family: fantasy;padding-top: 40px;}
+		
+
+		
+.search{width: 170px;height: 30px;border-radius: 15px;outline: none;border: 1px solid #ccc;
+			padding-left: 20px;position: absolute;top: 4px;}/*搜索框属性*/
+
+.parent {position: relative;}
+
+.text{font-family: "楷书";font-size: 15px;letter-spacing: 3px;line-height: 2;text-indent: 2em;text-align: left;
+			padding-left: 25px;padding-right: 25px}/*定义文本字体、样式、两侧边距、行距和缩进*/
+		
+.remark{font-family:"华文细黑";text-align: center;font-size: 15px; color: hsla(0,0%,49%,1.00)}/*定义提示部分样式*/
+		
+.specialLine{text-align: center;}
+		
+.table{width: 900px;border: solid 2px;border-collapse: collapse;margin: auto;}/*定义表格样式*/
+		
+.th{border: solid 2px;border-collapse: collapse;font-family:"bad-script";font-size: 15px;
+			color: hsla(0,0%,49%,1.00)}/*定义表头单元格样式（列）*/
+		
+.thtop{border: solid 2px;border-collapse: collapse;font-family:"bad-script";}/*定义表头单元格样式（首行）*/
+		
+.td{font-family:"bad-script";color: hsla(0,0%,49%,1.00);text-align:center;border: solid 2px;
+			border-collapse: collapse;}/*定义单元格样式*/
+		
+.parent {position: relative;}
+		
+ul li {list-style: none;}
+		
+.track-list {text-align: center;margin:0 auto;padding-left: 5px;position: relative;width: 80%;}/*时间线属性*/
+		
+.track-list li {padding: 9px 0 0 25px;line-height: 18px;border-left: 3px solid #695C75;
+			color:black;font-family: "楷体";}/*时间线属性*/
+		
+.track-list li .time {margin-right: 20px;position: relative;top: 4px;display: inline-block;
+			vertical-align: middle;color: red;font-family: "楷体";font-size:20px;}/*时间线中时间属性*/
+		
+.track-list li .txt {font-family: "中易宋体"; position: relative;text-indent: 2em;top: 4px;font-size: 15px; display: inline-block;vertical-align: middle;}/*时间线中内容属性*/
+
+.text{text-align: center;}
